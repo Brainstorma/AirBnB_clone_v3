@@ -207,9 +207,9 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Brainstorma - [Brainstorma](https://github.com/brainstorma) 
+Brainstorma - [Github](https://github.com/brainstorma) 
 
-Aniekan Mark - [Gmail](aniekanmark55@gmail.com)
+Aniekan Mark - [Github](https://github.com/aniekanmark55)
 
 ## License
 Public Domain. No copy write protection. 
