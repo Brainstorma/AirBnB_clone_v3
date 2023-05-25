@@ -30,37 +30,53 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 ## TASKS ⚔️
 
-1. **0. Restart from scratch!** In this task, we reboot the AirBnB clone project from the ground up. We start by creating a RESTful API using Flask and configure a MySQL database to store our data. We also create a new architecture to manage our models and views. 
+## **0. Restart from scratch!** 
+In this task, we reboot the AirBnB clone project from the ground up. We start by creating a RESTful API using Flask and configure a MySQL database to store our data. We also create a new architecture to manage our models and views. 
 
-2. **1. Never fail!** In this task, we create automated unit tests for all functionalities to make sure that the project never fails and that new features can be added without major issues. We use the Python unittest module and mock objects to test our endpoints.
+## **1. Never fail!** 
+In this task, we create automated unit tests for all functionalities to make sure that the project never fails and that new features can be added without major issues. We use the Python unittest module and mock objects to test our endpoints.
 
-3. **2. Improve storage** In this task, we migrate from our previous JSON storage to SQLAlchemy, Alembic, and Flask Script. Flask SQLAlchemy replaces our previous storage in JSON files with a more structured SQL database. Alembic manages the database schema changes and Flask Script provides a better command-line interface.
+## **2. Improve storage** 
+In this task, we migrate from our previous JSON storage to SQLAlchemy, Alembic, and Flask Script. Flask SQLAlchemy replaces our previous storage in JSON files with a more structured SQL database. Alembic manages the database schema changes and Flask Script provides a better command-line interface.
 
-4. **3. Status of your API** In this task, we add a new Flask endpoint that returns a JSON string with the status of our API. This endpoint returns the number of objects of each type in the database.
+## **3. Status of your API** 
+In this task, we add a new Flask endpoint that returns a JSON string with the status of our API. This endpoint returns the number of objects of each type in the database.
 
-5. **4. Some stats?** In this task, we add more functionality to our API by creating other Flask endpoints that return statistics of the data in the database. These endpoints return the number of objects per class, and a count of the reviews by a given states.
+## **4. Some stats?** 
+In this task, we add more functionality to our API by creating other Flask endpoints that return statistics of the data in the database. These endpoints return the number of objects per class, and a count of the reviews by a given states.
 
-6. **5. Not found** In this task, we implement error handling for 404 errors and invalid arguments in Flask endpoints. We use Flask's error handlers and customize these error pages to represent our API.
+## **5. Not found** 
+In this task, we implement error handling for 404 errors and invalid arguments in Flask endpoints. We use Flask's error handlers and customize these error pages to represent our API.
 
-7. **6. State** In this task, we set up a new Flask endpoint to retrieve all states or a specific state by its ID. We also create CRUD operations for the state object using SQLAlchemy. This includes creating a new state, updating a state, deleting a state and showing all states.
+## **6. State** 
+In this task, we set up a new Flask endpoint to retrieve all states or a specific state by its ID. We also create CRUD operations for the state object using SQLAlchemy. This includes creating a new state, updating a state, deleting a state and showing all states.
 
-8. **7. City** In this task, we continue to add CRUD operations for the City object and set up a new Flask endpoint for retrieving all cities of a State. We also create CRUD operations for the City object only which consists of creating, showing, updating, and deleting city information.
+## **7. City** 
+In this task, we continue to add CRUD operations for the City object and set up a new Flask endpoint for retrieving all cities of a State. We also create CRUD operations for the City object only which consists of creating, showing, updating, and deleting city information.
 
-9. **8. Amenity** In this task, we add CRUD operations for the Amenity object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all amenities of a Place. This endpoint returns a JSON string of all amenities attached to a specific place.
+## **8. Amenity** 
+In this task, we add CRUD operations for the Amenity object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all amenities of a Place. This endpoint returns a JSON string of all amenities attached to a specific place.
 
-10. **9. User** In this task, we add CRUD operations for the User object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all users and a new SQL table for user and all related information.
+## **9. User** 
+In this task, we add CRUD operations for the User object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all users and a new SQL table for user and all related information.
 
-11. **10. Place** In this task, we add CRUD operations for the Place object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all places of a City or User.
+## **10. Place** 
+In this task, we add CRUD operations for the Place object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all places of a City or User.
 
-12. **11. Reviews** In this task, we add CRUD operations for the Review object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all reviews of a Place. We also make the Place and Review objects related to each other.
+## **11. Reviews** 
+In this task, we add CRUD operations for the Review object using RESTful API and SQLAlchemy. We create a new Flask endpoint for retrieving all reviews of a Place. We also make the Place and Review objects related to each other.
 
-13. **12. HTTP access control (CORS)** In this task, we implement Cross-Origin Resource Sharing (CORS) in our application to control access to web resources from different domains. We add support for OPTIONS requests and create a Flask middleware that adds the necessary headers.
+## **12. HTTP access control (CORS)** 
+In this task, we implement Cross-Origin Resource Sharing (CORS) in our application to control access to web resources from different domains. We add support for OPTIONS requests and create a Flask middleware that adds the necessary headers.
 
-14. **13. Place - Amenity** In this task, we create a many-to-many relationship between the Place and Amenity objects using SQLAlchemy. We create a new SQL table that defines the relationship between these two objects. 
+## **13. Place - Amenity** 
+In this task, we create a many-to-many relationship between the Place and Amenity objects using SQLAlchemy. We create a new SQL table that defines the relationship between these two objects. 
 
-15. **14. Security improvements!** In this task, we implement various security improvements to our application, including validation, sanitization, and password hashing. We ensure that no sensitive credentials or information is stored in plaintext in our database.
+## **14. Security improvements!** 
+In this task, we implement various security improvements to our application, including validation, sanitization, and password hashing. We ensure that no sensitive credentials or information is stored in plaintext in our database.
 
-16. **15. Search** Finally, in this task, we add advanced search functionalities to our application, including full-text search and multi-criteria search. We use Elasticsearch to index the data in the database and implement a search API using Flask. We create a new Flask endpoint that returns a list of places matching a given keyword and a new Flask endpoint that returns a list of places matching several filters.
+## **15. Search** 
+Finally, in this task, we add advanced search functionalities to our application, including full-text search and multi-criteria search. We use Elasticsearch to index the data in the database and implement a search API using Flask. We create a new Flask endpoint that returns a list of places matching a given keyword and a new Flask endpoint that returns a list of places matching several filters.
 
 
 
@@ -192,6 +208,7 @@ No known bugs at this time.
 
 ## Authors
 Brainstorma - [Brainstorma](https://github.com/brainstorma) 
+
 Aniekan Mark - [Gmail](aniekanmark55@gmail.com)
 
 ## License
